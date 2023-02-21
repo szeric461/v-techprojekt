@@ -5,3 +5,8 @@ body
     min-height: 100vh;
     background: linear-gradient(black, gray);
 }
+ 
+div {
+    display:inline-block;
+    
+ }
