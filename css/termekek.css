@@ -11,7 +11,8 @@ body
     min-height: 100vh;
     background: linear-gradient(black, gray);
 }
-div {
+div 
+{
     display:inline-block;
     
  }
@@ -61,8 +62,11 @@ ul {
   li a {
     display: block;
   }
-  head
+  img
   {
-    margin: 100;
-
+    width: 400px;
+    height: 400px;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center left;
   }
