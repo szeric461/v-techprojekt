@@ -9,7 +9,7 @@
 body
 {
     min-height: 100vh;
-    background: linear-gradient(black, gray);
+    background: linear-gradient(#2b1055, #7597de);
 }
 div 
 {
@@ -52,21 +52,29 @@ header ul li a.active
   color: #2b1055;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 60px;
-  }
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
   
-  li a {
-    display: block;
-  }
-  img
-  {
-    width: 400px;
-    height: 400px;
-    background-size: 200%;
-    background-repeat: no-repeat;
-    background-position: center left;
-  }
+li a 
+{
+  display: block;
+}
+img
+{
+  width: 400px;
+  height: 400px;
+  background-size: 200%;
+  background-position: center;
+
+}
+img#n2
+{
+  height: 9.75cm;
+}
+
+
