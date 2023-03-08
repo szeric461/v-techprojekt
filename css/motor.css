@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popint', sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+     background: linear-gradient(#2b1055, #7597de);
+
+}
+.silder{
+    max-width: 1150px;
+    display: flex;
+}
+.silder .card{
+    background: #fff;
+    flex: 1;
+    margin: 0 10px;
+}
+.silder .card .img{
+    height: 70%;
+    width: 100%;
+
+}
+.silder .card .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.silder .card .content{
+    padding: 10px 20px;
+}
+.card .content .title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.card .content .sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #e74c3c;
+}
+.card .content p{
+    text-align: justify;
+    margin: 10px 0;
+}
+.card .content .btn{
+    display: block;
+    text-align: left;
+    margin: 10px;
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10000;
+  }
+header ul
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li
+{
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a
+{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #ffff;
+  border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+  background: #ffff;
+  color: #2b1055;
+}
