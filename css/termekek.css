@@ -1,32 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
-*
-{
-    margin: 60;
-    padding: 1000;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
-body
-{
-    min-height: 100vh;
-    background: linear-gradient(#2b1055, #7597de);
+    font-family: 'Popint', sans-serif;
 }
-div 
-{
-    display:inline-block;
-    
- }
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+     background: linear-gradient(#2b1055, #7597de);
 
+}
+.silder{
+    max-width: 1500px;
+    display: flex;
+}
+.silder .card{
+    background: #fff;
+    flex: 1;
+    margin: 0 10px;
+}
+.silder .card .img{
+    height: 70%;
+    width: 100%;
+
+}
+.silder .card .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.silder .card .content{
+    padding: 0px 80px;
+}
+.card .content .title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.card .content .sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #e74c3c;
+}
+.card .content p{
+    text-align: justify;
+    margin: 10px 0;
+}
+.card .content .btn{
+    display: block;
+    text-align: left;
+    margin: 10px;
+}
 header
 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  z-index: 10000;
-}
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10000;
+  }
 header ul
 {
   display: flex;
@@ -51,30 +89,4 @@ header ul li a.active
   background: #ffff;
   color: #2b1055;
 }
-
-ul 
-{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 60px;
-}
-  
-li a 
-{
-  display: block;
-}
-img
-{
-  width: 400px;
-  height: 400px;
-  background-size: 200%;
-  background-position: center;
-
-}
-img#n2
-{
-  height: 9.75cm;
-}
-
 
